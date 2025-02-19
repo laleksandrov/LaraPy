@@ -1,10 +1,9 @@
 {
-    
     "name": "laleksandrov/larapy",
     "description": "A Laravel package to provide Python script helpers and manage Python resources.",
     "type": "library",
     "license": "MIT",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
