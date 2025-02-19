@@ -1,0 +1,29 @@
+{
+    "name": "laleksandrov/larapy",
+    "description": "A Laravel package to provide Python script helpers and manage Python resources.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laleksandrov\\LaraPy\\": "src/"
+        },
+        "files": [
+            "src/Helpers/python_helper.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laleksandrov\\LaraPy\\PythonResourcesServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^10.0",
+        "symfony/process": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0"
+    }
+}
